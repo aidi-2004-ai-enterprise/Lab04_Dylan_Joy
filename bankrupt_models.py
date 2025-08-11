@@ -68,9 +68,6 @@ plt.xlabel("False Positive Rate")
 plt.ylabel("True Positive Rate")
 plt.title("ROC Curves")
 plt.legend()
-plt.show(block=False)
-plt.pause(3)
-plt.close()
 
 # 5. Plot Precision-Recall curves
 
@@ -82,4 +79,6 @@ plt.xlabel("Recall")
 plt.ylabel("Precision")
 plt.title("Precision-Recall Curves")
 plt.legend()
-plt.show(block=False)
+
+# Show both plots and block until manually closed
+plt.show()
