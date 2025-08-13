@@ -152,7 +152,7 @@ A separate file will hold graphs and visualizations.
 - SHAP, LIME, and feature importance methods were included  
 - SHAP details local and global explanations  
 - LIME interprets estimatations for individual predictions  
-- RF feature importance provides quick insights w/ ;ess granularity  
+- RF feature importance provides quick insights w/ less granularity  
 
 
 # 17. Final Notes
